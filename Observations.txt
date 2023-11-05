@@ -3,5 +3,6 @@
 ~ 72% accurancy with initial feature engineering. Many incorrectly classified serious events labelled as not serious. No apparent pattern, but both RF and SVM incorrectly classifying same entries.
 
 Fixed issue with NaN filling in casualty_ibd_decile and casualty_home_area_type. NOT FIXED -> i'm not sure it's filling each missing value with a random choice, rather (badly) selecting a random choice and filling all NaNs with this value. Think more carefully about this.
+Try dropping these rows and check impact on accuracy???
 
 Currently, only casualty_type and casualty_class combined. Will combine and reduce more features, use age_band instead of numeric age.
