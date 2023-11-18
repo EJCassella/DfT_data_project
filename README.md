@@ -37,3 +37,5 @@
 - This would be cool data for a dashboard.
 
 - Re-dig into the EDA to look a bit more closely at which features are related to the seriousness of the crash (and combine the Serious and Fatal categories sooner)
+
+- Outlier removal!
